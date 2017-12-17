@@ -90,3 +90,23 @@ Issue encounter:
 •	Only Class blueprint can be transfer over to the new project. Meaning I had to start from scratch to add in new matinee and build up the level blueprint.
 •	Images had to be reinstalled into the widget. 
 
+![](Screenshots/Sky_Postpone.jpg)
+![](Screenshots/2%20WIDGET%20Press%20E%20on%20class%20BP%20trigger%20box.jpg)
+Class Blueprint (trigger box) and project in the GROUP github (Our_Nightmare)
+
+Video: [31 Same mechanic, different Project].
+Decide again to leave the issue for now as it still keeps showing up the ‘lock’ sign despite whether the player got the key or not.
+
+
+4: Creating and importing grass
+
+Video: [Grass setup]. 
+Separate Repoistory: https://github.com/gwoch/Making_Plants_Textures-Meshes.git
+
+Initially I was going to create some hedges but with some confusion ended up trying to learn how to make some grass. It turns out to be a lot simpler to create the grass. With only using 4 plain shapes to make in Maya and a single texture image, the real work was applying them in the material setting. After following some tutorial online, I was amazed how much I’ve learnt within learning the special effect you can use. This I found a much better time learn how to use multiplier, linear gradient and wind effect. It will definitely help learning how to fix material import as I already had a bad experience when trying to get the texture looking the way I wanted in unreal engine.
+
+![](Texture%20images/tall-grass-texture-alpha-21.png)
+Texture image I used to make the grass
+
+![]
+
