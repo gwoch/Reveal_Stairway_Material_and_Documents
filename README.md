@@ -116,5 +116,28 @@ Texture image I used to make the grass
 ![](Screenshots/Grass_TwistedvsStraight2.jpg)
 If the object is twist in spiral, so will the material. It’s interesting to see if it will look better if all of were twist, could it cover more ground, or would it look more fake?
 
-![](
+![](Screenshots/Grass_Group_Patch.jpg)
+Material in the group project: Same material setting just different texture sample, look like I could make a wheat field if I wanted to.
 
+
+5: Skybox and Lightening.
+
+Sky Background (Still working progress)
+Process of making the sky for the game. We agreed that we wanted the tone to be near nighttime/sunset setting. So I tried using the PostProcessVolume setting to create the setting (See the result above). However, this result affects the object too, so they become the colour as same as the lighting (that object in the image above was initially red and the lightening change it to be navy).
+
+![](Screenshots/Sky_Postpone.jpg)
+
+We use this image on the below as reference guide because we like how it’s look mystical whilst also implying the darkness feel to it.
+
+![](Texture%20images/Skybox_reference.png)
+Image reference that is available from: http://huaban.com/pins/470061355/ [Accessed 25th October 2017].
+
+![](Screenshots/Skybox.jpg)
+
+So, going back to the drawing board, I tried a new technique, making a SkyBox. It’s still a developing process as I had many complications where the flat image that I make on Photoshop either doesn’t align or inserting it into unreal make the whole image pixelated. It was also something I had to adapt because I started out with a cubemap and then had to convert it into a 360 panorama.
+Obviously my first few attempt (Bottom image) doesn’t looks as appealing as our guide. My images look stretched and so I need to make my png image bigger to avoid the distorted image.
+
+
+6: Switched Repository 
+
+After some time, I have been having trouble committing any new thing into github both in the https://github.com/gwoch/Reveal-stairway.git and in separate project which was only to play around with the plant was https://github.com/gwoch/Making_Plants_Textures-Meshes.git 
