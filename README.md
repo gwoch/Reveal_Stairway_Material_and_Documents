@@ -108,5 +108,6 @@ Initially I was going to create some hedges but with some confusion ended up try
 ![](Texture%20images/tall-grass-texture-alpha-21.png)
 Texture image I used to make the grass
 
-![]
+![](Screenshots/Grass_Material_Setting.jpg)
+![](
 
