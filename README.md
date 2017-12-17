@@ -139,4 +139,58 @@ Obviously my first few attempt (Bottom image) doesn’t looks as appealing as ou
 
 6: Switched Repository 
 
-After some time, I have been having trouble committing any new thing into github both in the https://github.com/gwoch/Reveal-stairway.git and in separate project which was only to play around with the plant was https://github.com/gwoch/Making_Plants_Textures-Meshes.git 
+After some time, I have been having trouble committing any new thing into github both in the and in separate project which was only to play around with the plantation (https://github.com/gwoch/Making_Plants_Textures-Meshes.git)
+
+After a few days working on the project, my original repository in github couldn’t afford the space to keep committing. I probably might have lost 30 commits since I couldn’t fix the issue sooner. Instead I had to RELOCATE the repository. Splitting the project up so one contains the unreal project and the other contain my images and files.
+
+My Original Repository https://github.com/gwoch and https://github.com/gwoch/Reveal-stairway.git is now split up to…..
+
+
+https://github.com/gwoch/Reveal_Stairway_Material_and_Documents.git /
+
+https://github.com/gwoch/Reveal_Stairway_UR.git
+
+
+Repository for Maya Modelling
+
+https://github.com/gwoch/BTB-Iron-Gates.git 
+
+https://github.com/gwoch/BTB-Spectacle-Lever-and-Lamp.git 
+
+https://github.com/gwoch/BTB-Gnome.git
+
+These would be the new repository for you to examine now…...
+
+
+Our Game will be in here now:
+https://github.com/luarsu/BreakTheBuildFINAL.git
+
+In our FINAL PROJECT in Unreal engine. I would not be able to produce a lot of commits. As my role has been decide to become one of the main modeller and so my task is more focused outside the of the project, creating objects for the game and importing them after. So, all my commits of shown below and will only commit in the Final project once I have some finished asset to import.
+
+
+7: Fixing the Skybox
+
+After digging my way to find the solution, it eventually came to the point where I had to manually manipulate the flat image. I started trying to build it on a cubemap which became very complicated and trying to convert it into a 360 panorama online. However the image shown below show the result of the image, making the entire sky look very square shaped.
+
+![](Screenshots/Skybox%20Problem%203.png)
+
+I then tested the image on the skybox (which the actor was picked to be a sphere) as I initial started before I shaped it. This result was more promising but still needs more tweeting.
+
+![](Image%20import/sunset%20nighsky%20Start.jpg)
+PNG Image
+
+![](Screenshots/Skybox%20Problem%201.jpg)
+What it looked in Unreal Engine. (the reason this was showing the coloured to be very light was because the image I imported wasn’t a 8bit format and so unreal engine was not compatible to allow me to activate sRGB settings). You can see the top of the image being clamped together, so this has given me an indicate of where I should stretch the image. 
+
+Overall by long trail and error I decide to manually recreated the scene on photoshop and morph the shape by hand using a sphere UV map as reference. Converting the image in a skybox setting in unreal and simply apply it in the material box. Honestly this shaping took 10 attempts to make it work. Check out my folder 'Image Import' to see the multiple images of attempt of making the image.
+
+![](Screenshots/Sky_Material_Settings.jpg)
+Material Setup.
+
+![](Screenshots/Sky_Image_Setup.jpg)
+Image Setup.
+
+![](Screenshots/Skybox_FIXED.jpg)
+End result.
+
+
