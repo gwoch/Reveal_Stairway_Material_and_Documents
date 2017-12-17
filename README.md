@@ -109,5 +109,12 @@ Initially I was going to create some hedges but with some confusion ended up try
 Texture image I used to make the grass
 
 ![](Screenshots/Grass_Material_Setting.jpg)
+![](Screenshots/Grass_1st_Creation.jpg)
+![](Screenshots/Grass_Patch.jpg)
+![](Screenshots/Twisted_Plane.jpg)
+![](Screenshots/Grass_TwistedvsStraight.jpg)
+![](Screenshots/Grass_TwistedvsStraight2.jpg)
+If the object is twist in spiral, so will the material. It’s interesting to see if it will look better if all of were twist, could it cover more ground, or would it look more fake?
+
 ![](
 
