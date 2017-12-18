@@ -199,7 +199,7 @@ End result.
 
 8: Modelling.
 
-Because I have taken role as the game modeller and in charge for other artistic purpose. I recommend checking out Micheal’s google slide as it will contain all of my work that based on modelling the objects for the game. I’ll show you some preview screenshots. My commits at this point will bw on the Maya sofwtare and possible back on my independented unreal project.
+Because I have taken role as the game modeller and in charge for other artistic purpose. I recommend checking out Micheal’s google slide as it will contain all of my work that based on modelling the objects for the game. I’ll show you some preview screenshots. My commits at this point will bw on the Maya sofwtare and possible back on my independent unreal project.
 
 ![](Screenshots/Iron%20gate%20wall%203.jpg)
 ![](Screenshots/iron%20gates%20UV.jpg)
@@ -209,5 +209,47 @@ I made these gates that will the maze main doors, this will have animation and s
 ![](Screenshots/UV%20Spectacles.jpg)
 ![](Screenshots/UV%20Lamp.jpg)
 
+These object will have seperate materila that will either emit light or acts like a glass texture.
 
-9:
+
+9: Testing the objects in Unreal
+
+Tested by importing the lamp in my project and the light source by making a separated material to become the light. Was very happy with the result and imported that material map into the final project.
+
+![](Screenshots/Light%20emission%20screenshot.jpg)
+![](Screenshots/Light%20emission%20Material.jpg)
+
+
+10: Implementing the doors
+
+During my modelling while the others continue to programmed the game, it wasn’t actually clear that some of the effort I put in when learning to created the key mechanic and moving platforms was going to be in the game. 
+
+The way it was organized is that some people will create a puzzle in each part of the maze. I did not volunteer as I was more focus on getting the objects made because the level itself it very large to fill. I more wanted to add character and a theme to the game, which is why occasionally I would ask if show draw out the UI menu in a way that the look will define the theme of a fantasy, dream, horror world. But at the mean time I would offer support in fixing any problems with the animation on object as I was well trained up to know the mechanic of the matinee.
+In this example, Luis had built a puzzle in the maze where certain doors (which was the door that I made) will open up by a certain key. However, he had trouble trying to programmed the doors to open up properly. He and Pablo tried using the matinée to create the animation but fail to understand the mechanic. I suggest that they tried making it in class blueprint but they had trouble and lack of time to attempt that as well. 
+
+![](Screenshots/Maintee%20FINAL%200.jpg)
+
+I was surprised that they didn’t ask me to conduct this programmed as I already did this system before, it would save them time by asking me to do it then them trying to figure it out on their own. So, while in a sense of butting in I pursued them to let me apply the animation through matinee. I know this was a more tedious task then building it up in class blueprint but it was the method that I was most confident in of making it look right in it animation.
+
+I would blame Unreal to have this awkward update. The matinee is technically being change to make pivot rotation on an object more difficult to programmed. By looking at previous tutorials online, the method has been changed too. I can understand why the boys had such a hard time figuring the problems out. 
+
+Thankfully I took this in a different direction. I tested out the animation in my personal project and then took up more tutorial on advance learning in case I was missing something that would have made the animation much easier. In the end, after looking at the ‘curve mechanic’ I couldn’t find any easier solution and decided to use the method that I train myself to learn in the first place.
+
+![](Screenshots/Gnome_gate.jpg)
+![](Screenshots/Maintee%20Gnome%20gate.jpg)
+
+Advance technique in matinee, controling only certain axis and rotation. Should have been the solution but that experiment failed and was a waste of time.
+
+Video: [41Redone the Maintee animation sequence]
+
+In the video, it would show one door animated better then the other. It’s all for good practice and made me soon realize that to get the best result is to pin point the door’s position by every 0.25 sec. Again, I would still blame the update for making everything in the matinee more difficult to control then it should be.
+
+![](Screenshots/Maintee%20Top%20perspective.jpg)
+
+Another tip I soon found out, set the pivot to exact place to be the center pivot. This was actually Luis’s problem to begin with. When I was going on to the FINAL project and looked in the TOP camera view perspective. The model wasn’t aligned to begin with and the pivot was set all wrong. In the end I had to manually reposition all of the gates so they can synchronize properly. With my practice, I manage to apply all of the animation on every gate as Luis requested. Only time will tell if he would want to use my key mechanic system (walk over key (destroying the actor) and press an input to open the gate) or will he use his method, (picking them up physically and bringing it to the door itself and will open it up from there).  
+
+
+![](Screenshots/Maintee%20FINAL%201.jpg)
+![](Screenshots/Maintee%20FINAL%202.jpg)
+
+Video: [42Matinee_Doors_for_FINAL]
