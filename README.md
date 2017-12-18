@@ -185,12 +185,29 @@ What it looked in Unreal Engine. (the reason this was showing the coloured to be
 Overall by long trail and error I decide to manually recreated the scene on photoshop and morph the shape by hand using a sphere UV map as reference. Converting the image in a skybox setting in unreal and simply apply it in the material box. Honestly this shaping took 10 attempts to make it work. Check out my folder 'Image Import' to see the multiple images of attempt of making the image.
 
 ![](Screenshots/Sky_Material_Settings.jpg)
+
 Material Setup.
 
 ![](Screenshots/Sky_Image_Setup.jpg)
+
 Image Setup.
 
 ![](Screenshots/Skybox_FIXED.jpg)
+
 End result.
 
 
+8: Modelling.
+
+Because I have taken role as the game modeller and in charge for other artistic purpose. I recommend checking out Micheal’s google slide as it will contain all of my work that based on modelling the objects for the game. I’ll show you some preview screenshots. My commits at this point will bw on the Maya sofwtare and possible back on my independented unreal project.
+
+![](Screenshots/Iron%20gate%20wall%203.jpg)
+![](Screenshots/iron%20gates%20UV.jpg)
+
+I made these gates that will the maze main doors, this will have animation and some will be trigger by a switch or a key.
+
+![](Screenshots/UV%20Spectacles.jpg)
+![](Screenshots/UV%20Lamp.jpg)
+
+
+9:
