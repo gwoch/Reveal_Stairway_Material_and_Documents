@@ -1,6 +1,8 @@
 # Reveal_Stairway_Material_and_Documents
+Technically should have been called (Break_the_Build_Material_and_Documents).
 
-his a NEW Repository file that comes from the original Repository 'Reveal_Stairway'. 
+
+This a NEW Repository file that comes from the original Repository 'Reveal_Stairway'. 
 
 This will only contain my BLOG, images and photoshop doucment. 
 
