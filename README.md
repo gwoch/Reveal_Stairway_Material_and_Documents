@@ -253,3 +253,31 @@ Another tip I soon found out, set the pivot to exact place to be the center pivo
 ![](Screenshots/Maintee%20FINAL%202.jpg)
 
 Video: [42Matinee_Doors_for_FINAL]
+
+
+........................................................................................................................................
+
+
+For the rest of the project, I became involved in the modelling artistic aspect of the game. This is where I would finish off my model, given them texture and applying them into the game. 
+To see the process of what I have done for the last remaining part of the project. Look into this link:
+
+(Goggle Slide)
+https://docs.google.com/presentation/d/1FZ4CcA1J0ke7pErpJ1tSn_yeQcBYTYDj3qK3JxCZsdo/edit?usp=sharing
+
+I gradually became in charge of decorating the map whilst working around my teammates as they try to fix bugs and add more gameplay mechanic. I helped test the system and passed on any notes that was necessary to notified.
+
+As a reminder, here is all my links to my repositories that is connected to all my development and process.
+
+Unreal Engine (Induvial project):
+https://github.com/gwoch/Reveal_Stairway_Material_and_Documents.git /
+https://github.com/gwoch/Reveal_Stairway_UR.git
+
+Maya (Modelling the Objects):
+
+https://github.com/gwoch/BTB-Iron-Gates.git 
+https://github.com/gwoch/BTB-Spectacle-Lever-and-Lamp.git 
+https://github.com/gwoch/BTB-Gnome.git
+
+OFFICIAL REPOSITORY FOR THE GAME:
+https://github.com/luarsu/BreakTheBuildFINAL.git
+
