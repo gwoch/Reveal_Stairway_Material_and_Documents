@@ -271,13 +271,15 @@ I gradually became in charge of decorating the map whilst working around my team
 As a reminder, here is all my links to my repositories that is connected to all my development and process.
 
 Unreal Engine (Induvial project):
-https://github.com/gwoch/Reveal_Stairway_Material_and_Documents.git /
+
 https://github.com/gwoch/Reveal_Stairway_UR.git
 
 Maya (Modelling the Objects):
 
 https://github.com/gwoch/BTB-Iron-Gates.git 
+
 https://github.com/gwoch/BTB-Spectacle-Lever-and-Lamp.git 
+
 https://github.com/gwoch/BTB-Gnome.git
 
 OFFICIAL REPOSITORY FOR THE GAME:
