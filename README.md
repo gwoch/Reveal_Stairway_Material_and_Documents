@@ -78,8 +78,11 @@ The correct way to add the imaged text for telling the player to press ‘E’ w
 Blueprint of attaching the “Obtain Key” widget when you touched the key. It was very tricky to figure out how to destroy the key’s trigger box as well. Because before, you could just continue to walk over that spot and the text will still reappear after you first picked up the key.
 
 Video: [21 Key Mechanic without Locked sign].
+
 This was the last thing I achieved without coming back for a long time. Managed to get the widget ‘Press E’ to appear but can’t figure out how to get “It’s Locked” image to appear with the condition of pressing the ‘E’ input and without the key itself.
+
 Video: [22 ‘It’s Locked’ Issue].
+
 After spending over 3 hours on trying to figuring how to get the text to appear on the screen, the closet bit I got to which you can see it in the video, is to use the String Print, I initially tried to make a new variable that was set up only for the ‘E’ input to be the new condition for the branch/Boolean mechanic, but that didn’t work either. Overall the main issue was to address the computer which condition I’m trying to analyze, when things do work out, it unfortunately disables the other entire system of when the player does get the key and so you can’t open the door. For now, I can only leave for now and see if my fellow team mate might help figure the problem. 
 Right now, I need to start my next plan or creating some bushes and hedges for the game.
 
